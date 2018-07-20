@@ -1,0 +1,15 @@
+# ���÷���ע�����ĵĵ�ַ
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+#���÷���˿�
+server:
+  port: 8762
+  servlet:
+    context-path: /ztgSpringCloud
+
+# ���÷������� ��������������һ����
+spring:
+  application:
+    name: eurekaclinet
